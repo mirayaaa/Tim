@@ -1,0 +1,63 @@
+#intro_inner {
+    display: inline-block;
+    width: 50%;
+    text-align:center;
+    display: table-cell;
+    vertical-align: middle;
+}
+#intro {
+    width: 100%;
+    background-color: black;
+    text-align: right;
+    display: table;
+}
+h2{
+    color: white;
+    font-size: 2vw; 
+}
+#i {
+    width: 50%;
+    
+    
+}
+body {
+    text-align: center
+}
+#name {
+ font-size: 3vw;
+ color: red;
+}
+h1 {
+   color: white;
+    font-size: 3vw;   
+}
+#menu {
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 5px;
+}
+#menu li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.7vw;
+    letter-spacing: 1px;
+    font-family: 'Inconsolata', monospace;    
+}
+#menu li:hover{
+    color: red;
+    font-size: 2vw;
+}
+#bio h1 {
+    color: black;
+    text-align: left;
+    font-size: 3vw;
+} 
+#bio {
+    padding: 5%;
+}
+#bio p {
+    text-align: justify;
+    font-size: 1.5vw;
+    line-height: 1.3;
+}
