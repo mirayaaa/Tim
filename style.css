@@ -28,8 +28,9 @@ body {
  color: red;
 }
 h1 {
-   color: white;
-    font-size: 3vw;   
+   color: black;
+    font-size: 3vw;  
+    text-align: left;
 }
 #menu {
     list-style: none;
@@ -48,16 +49,42 @@ h1 {
     color: red;
     font-size: 2vw;
 }
-#bio h1 {
-    color: black;
-    text-align: left;
+#intro h1 {
+    color: white;
     font-size: 3vw;
+    text-align: center;
 } 
-#bio {
-    padding: 5%;
+#bio, #videos, #work, #writings, #contact {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%
 }
 #bio p {
     text-align: justify;
     font-size: 1.5vw;
     line-height: 1.3;
+}
+#videos iframe {
+    padding: 1%;
+    box-shadow: 5px 5px 5px grey;
+       
+}
+#work iframe {
+    box-shadow: -8px 8px 5px grey;
+}
+#writings a {
+    text-decoration: none;
+    font-size: 20px;
+  
+}
+#contact div {
+    padding: 100px;
+    background-color: #222021
+}
+#writings {
+    text-align: left;
+}
+#writings div {
+    box-shadow:5px 5px 5px grey;
+    padding: 20px;
 }
