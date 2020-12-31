@@ -37,15 +37,21 @@ h1 {
     background-color: whitesmoke;
     margin: 0px;
     padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 #menu li {
-    display: inline-block;
+     display: inline-block;
+}
+#menu a {
     margin-right: 20px;
     font-size: 1.7vw;
     letter-spacing: 1px;
-    font-family: 'Inconsolata', monospace;    
+    font-family: 'Inconsolata', monospace;
+    text-decoration: none;
 }
-#menu li:hover{
+#menu a:hover{
     color: red;
     font-size: 2vw;
 }
@@ -77,9 +83,10 @@ h1 {
     font-size: 20px;
   
 }
-#contact div {
+#social_media {
     padding: 100px;
-    background-color: #222021
+    background-color: #222021;
+    
 }
 #writings {
     text-align: left;
@@ -87,4 +94,27 @@ h1 {
 #writings div {
     box-shadow:5px 5px 5px grey;
     padding: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#map {
+    
+    
+}
+#social_media a {
+    border: 2px solid white; 
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+#social_media a:hover {
+    color: firebrick;
+    border-color: firebrick;
+    
 }
